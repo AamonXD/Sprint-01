@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+:root{
+    --fondo: #f00000
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:url(https://cdn-images.zety.es/pages/curriculum_informatico_1.jpg);
+    align-items: center;
+    padding:150px;
+    width: 100%;
+    height: 50px;
+    text-align:start;
+    color: white;
+}
+
+body{
+    background-color:#F8EFBA;
+    color:rgb(0, 0, 0);
+}
+
+.menu{
+    list-style: none;
+    text-decoration: none;
+    background-color: #2d3436;
+    width: 100%;
+    padding: 30px;
+    color: white;
+
+}
+
+
+
+.menu .li{
+    display: inline-block;
+}
+
+
+.li a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    position:right;
+    color:rgb(255, 255, 255);
+    margin: 5px 175px;
+}
+
+.li a:hover{
+    color:rgb(153, 0, 255);
+    font-size: large;
+}
+
+.li a:active{
+    position:relative;
+	top:3px;
+}
+
+.li-r{
+    float: right;
+}
+
+main{
+    margin: 150px;
+}
+
+#innovacion{
+    position: relative;
+    position: justify;
+    text-align: center;
+    top:70px;
+    color: rgb(153, 0, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+#titulos {
+    color: rgb(153, 0, 255); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container-tabla{
+    margin: 100px auto;
+    width: 80vw;
+}
+
+tabla{
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    border-collapse:collapse;
+    animation: MoverDerecha 3s ease-in;
+}
+
+@keyframes MoverDerecha{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+td, th{
+    padding: 20px;
+}
+
+thead{
+    background-color: rgba(99, 61, 99, 0);
+    border-bottom: 5px solid teal;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+tr:nth-child(even){
+    background-color:rgba(255, 255, 255, 0.473);
+    text-align: center;
+}
+
+#td1{
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid rgba(99, 61, 99, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#th1{
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: #2d3436;
+    padding: 50px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h{
+    color: black;
+    padding: 15px;
+    display: inline-block;
+}
+
+article{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+

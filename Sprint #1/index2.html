@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style2.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Compras</title>
+</head>
+
+<body>
+    <form action="" class="formulario">
+        <h1>Detalles</h1>
+        <input type="text" class="formulario__input" placeholder="Nombre" id="nombre" checked>
+        <br>
+        <br>
+        <input type="text" class="formulario__input" placeholder="Apellido" id="apellido" checked>
+        <br>
+        <br>
+        <select name="select" id="select1">
+            <option name="frecuencia1" value="cantidad">Equipos disponibles</option>
+            <option name="frecuencia2" value="Portátil Huawei" multiple="yes" id="1">Portátil Huawei</option>
+            <option name="frecuencia3" value="Portátil HP Pavilion" multiple="yes" id="2">Portátil HP Pavilion</option>
+            <option name="frecuencia4" value="Portátil ASUS ZenBook Duo" multiple="yes" id="3">Portátil ASUS ZenBook Duo</option>
+            <option name="frecuencia5" value="Computador de mesa" multiple="yes" id="4">Computador de mesa</option>
+            <option name="frecuencia6" value="Portátil Acer 2en1" multiple="yes" id="5">Portátil Acer 2en1</option>
+        </select>
+        <br>
+        <br>
+        <input type="number" placeholder="Cantidad" id="cantidad">
+        <br>
+        <br>
+        <button value="Enviar" type="button" id="btnEnviar">Enviar</button>
+        <div id="seccion">
+            <br>
+            <label for="">Valor de compra:</label>
+            <br>
+            <input type="text" id="valorCompra" readonly>
+            <br>
+            <label for="">Valor de descuento</label>
+            <br>
+            <input type="text" id="ValorDescuento" readonly>
+            <br>
+            <label for="">Total</label>
+            <br>
+            <input type="text" id="total" readonly>
+            <br>
+            <div id="descuento"></div>
+            <br>
+            <button type="button" id="btnLimpiar">Limpiar</button>
+            
+        </div>
+        <script src="./script/script.js"></script>
+    </form>
+ 
+</body>
+
+</html>

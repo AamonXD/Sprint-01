@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#F8EFBA;
+    color:rgb(0, 0, 0);
+}
+
+fieldset{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    width: 70%;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 80px;
+}
+
+#legend{
+    font-family: 'Rubik', sans-serif;
+}
+
+.formulario{
+    width: 300px;
+    padding: 40px;
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2d3436;
+    border: 15px;
+    border-radius:15px;
+}
+
+.formulario h1{
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    font-weight: 500px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.formulario input[type="text"], .formulario input[type="number"], .formulario select[type="option"]{
+    border: 0;
+    background:none;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #6c5ce7;
+    padding: 14px 10px;
+    width:200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.formulario input[type="text"]:focus, .formulario input[type="number"]:focus, .formulario select[type="option"]:focus{
+    width:230px;
+    border-color: #55efc4;
+}
+
+.formulario button[type="button"]{
+    border: 0;
+    background:none;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #55efc4;
+    padding: 14px 40px;
+    outline: none;
+    color: lightgrey;
+    border-radius: 24px;
+    transition: 0.25s;  
+    cursor: pointer;
+}
+
+.formulario button[type="button"]:hover{
+    background:#55efc4;
+}
+.formulario button[type="button"]:active{
+    background-color: #44c29e;
+}
+
+.formulario #select1{
+    border: 0;
+    background:none;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #6c5ce7;
+    padding: 14px 10px;
+    width:200px;
+    outline: none;
+    color: lightslategrey;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.formulario #select1:focus{
+    width:230px;
+    border-color: #55efc4;
+}
+
+label{
+    color: lightslategrey
+}
+
+#descuento{
+    color:white;
+    font-size:1.1rem;
+}
+
+
+
+
+
